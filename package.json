@@ -1,0 +1,10 @@
+{
+  "name": "codevibe-event-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CODEVIBE 2026 event showcase website",
+  "scripts": {
+    "dev": "node server.js",
+    "start": "node server.js"
+  }
+}

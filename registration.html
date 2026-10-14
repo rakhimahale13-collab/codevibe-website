@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#090a09">
+    <meta name="description" content="Preview the CODEVIBE 2026 demo registration form.">
+    <title>Demo Registration — CODEVIBE 2026</title>
+    <link rel="stylesheet" href="./styles.css">
+    <script src="./script.js" defer></script>
+    <script src="./registration.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <a class="brand" href="./index.html#home" aria-label="CODEVIBE home">
+        <img src="./CODEVIBE_Logo.png" alt="CODEVIBE logo">
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav">
+        <span class="menu-icon" aria-hidden="true"></span>
+        <span class="sr-only">Toggle navigation</span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main navigation">
+        <a href="./index.html#home">Event home</a>
+        <a href="./index.html#register">Event details</a>
+      </nav>
+    </header>
+
+    <main id="main">
+      <section class="registration-page section-shell" aria-labelledby="registration-title">
+        <div class="registration-intro">
+          <p class="eyebrow"><span class="signal"></span> CODEVIBE 2026 / REGISTRATION</p>
+          <h1 id="registration-title">Put your product<br>on the floor<span class="accent">.</span></h1>
+          <p>This is a demo registration form for the CODEVIBE event page. Submitting it will not register you or send your information anywhere.</p>
+          <a class="text-link" href="./index.html#register">Back to event details <span aria-hidden="true">↗</span></a>
+        </div>
+
+        <form class="registration-form registration-page-form" id="registration-form">
+          <p class="register-form-label">DEMO REGISTRATION / PREVIEW ONLY</p>
+          <div class="registration-fields">
+            <label>
+              Full name
+              <input name="name" type="text" autocomplete="name" required>
+            </label>
+            <label>
+              Email address
+              <input name="email" type="email" autocomplete="email" required>
+            </label>
+            <label>
+              Product / project name
+              <input name="product" type="text" required>
+            </label>
+            <label>
+              Institution or organisation <span>(optional)</span>
+              <input name="institution" type="text" autocomplete="organization">
+            </label>
+          </div>
+          <button class="button button-light registration-submit" type="submit">Submit preview <span aria-hidden="true">↗</span></button>
+          <small class="register-hint">Demo only. Details are not sent or stored.</small>
+          <p class="registration-status" id="registration-status" role="status" aria-live="polite"></p>
+        </form>
+
+        <div class="registration-facts" aria-label="Event details">
+          <span>08 OCT 2026</span>
+          <span>MET Institute of Technology · MET Bhujbal Knowledge City, Nashik</span>
+          <span>ORGANISED BY MET E-CELL</span>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer section-shell">
+      <a class="footer-brand" href="./index.html#home"><img src="./MET_ECell_logo.png.jpeg" alt=""><span>CODEVIBE <small>BY MET E-CELL</small></span></a>
+      <p>National Entrepreneurship Challenge 2026<br>MET Institute of Technology · Nashik</p>
+      <a class="back-top" href="#main">BACK TO TOP <span aria-hidden="true">↑</span></a>
+      <span class="footer-mark" aria-hidden="true">CV—26</span>
+    </footer>
+  </body>
+</html>
